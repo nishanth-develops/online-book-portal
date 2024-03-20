@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            width: 400px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 5px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #ff5e62;
+            color: #fff;
+            padding: 12px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ff4044;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazy Book Store Registration</title>
+</head>
+<body>
+    <h1>📚 Welcome to the Crazy Book Store 📚</h1>
+    <form action="">
+        <label for="username">Your Unique Bookworm Name <input type="text" id="username"></label>
+        <label for="password">Top Secret Bookish Password <input type="password" id="password"></label>
+        <label for="cpassword">Confirm Password (because it's a secret) <input type="password" id="cpassword"></label>
+        <label for="email">Magical Email (we promise no spam) <input type="email" id="email"></label>
+        <label for="favGenre">Favorite Book Genre (we're curious) <input type="text" id="favGenre"></label>
+        <label for="readingSpeed">Reading Speed (tortoise, rabbit, or superhero?) <input type="text" id="readingSpeed"></label>
+        <button type="submit">Unleash the Bookworm</button>
+    </form>
+</body>
+</html>
